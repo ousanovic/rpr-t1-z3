@@ -35,5 +35,5 @@ public class Sat
     public int dajSate() { return sati; }
     public int dajMinute() { return minute; }
     public int dajSekunde() { return sekunde; }
-    public void ispisi() { System.out.println(sati + ":" + minute + ":" + sekunde); }
+    public void ispisi() { System.out.println((sati == 0 ? 00 : sati) + ":" + (minute == 0 ? 00 : minute) + ":" + (sekunde == 0 ? 00 : minute)); }
 }
